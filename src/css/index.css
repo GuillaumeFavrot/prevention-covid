@@ -1,0 +1,102 @@
+/*
+This app uses Bootstrap for quick CSS formatting however if specific custom CSS rules are needed they can be added in the present file.  
+If a rule written in this file does not properly apply to the app it's because bootstrap rules usually take priority.
+To override this default behavior add '!important' at the end of a rule to give it priority
+*/
+ 
+.application {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.bg-main {
+  background-color: #30b370;
+  height: 50px;
+  width: 100% !important;
+}
+
+.tousanticovid {
+  height: 70px;
+}
+
+.rep-fr {
+  height: 70px;
+  margin-top: 5px;
+}
+
+.rep-fr-ft {
+  height: 120px;
+  margin-top: 5px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.text-color-main {
+  color: #017eba !important;
+}
+
+.text-link {
+  color: #017eba !important;
+  text-decoration: underline !important;
+}
+
+body > div > div.dropdown.open {
+  position: absolute;
+  }
+
+.btn-green {
+    background-color: #30b370 !important;
+}
+
+.btn-custom {
+    background-color: #017eba !important;
+    width: 50px;
+    height: 50px;
+    margin-top: 1px;
+    border-radius: 50% !important;
+}
+
+.btn-custom-med {
+  background-color: #017eba !important;
+  width: 160px;
+  height: 38px;
+  margin-top: 1px;
+  border-radius: 30px !important;
+}
+
+.btn-custom-big {
+    background-color: #017eba !important;
+    width: 150px;
+    height: 65px;
+    margin-top: 1px;
+    border-radius: 30px !important;
+}
+
+h1, h3 {
+  color: #017eba !important;
+  font-weight: bold !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.input {
+  border: 2px solid #017eba;
+  border-radius: 25px;
+  text-align: center;
+  height: 45px;
+  width: 300px;
+}
+
+.glass {
+  color: #017eba !important;
+  margin-top: 9px;
+  left : -53px
+}
+
+.container {
+  max-width: 325px !important;
+}
